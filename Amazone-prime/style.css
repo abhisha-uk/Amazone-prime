@@ -1,0 +1,264 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.navbar navbar-expand-lg{
+    
+background-color: #0f171e;
+background-image: linear-gradient(180deg,#1b2530 0,rgba(27,37,48,.85));
+background-repeat: repeat-x;
+color:#fff
+}
+
+.banner-section {
+	padding: 0px;
+    padding-right: 0px;
+}
+
+ .inner-banner {
+    background: url('asset/image/MLP.webp');
+	padding: 220px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position:center;
+
+	
+}
+
+.inner-banner-2 {
+    background: url('asset/image/TVOD_MLP_Left.webp');
+	padding: 204px 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+}
+.inner-contents{
+    color: #fff;
+}
+.inner-contents-2{
+    color: #fff;
+}
+.inner-contents p{
+    font-size: 1ppx;
+}
+.navbar img{
+    width: 100px;
+}
+.navbar{
+    background-color: #0f171e;
+}
+.navbar a{
+    color: #fff;
+}
+.inner-contents-3 image{
+    /* max-width: 800px; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    /* justify-items: flex-start; */
+}
+.img{
+    margin: 5px;
+    width:100%;
+}
+
+.inner-banner-4{
+    background-image:url(asset/image/MLP_Template_Image_Left.webp);
+    padding: 204px 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+}
+.inner-contents-4{
+    color: #fff;
+}
+.inner-banner-5{
+    background-image:url(asset/image/IN-kids-30Jan._CB1517304519_.webp);
+    padding: 204px 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+}
+.inner-contents-5{
+    color: #fff;
+    
+}
+.navbar a:hover{
+    color: #fff;
+    
+}
+.nav-link:hover, .nav-link:focus {
+    color: #fff;
+}
+.get-btn{
+    background-color: #385691;
+    color: #fff;
+    padding: 15px 70px;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.footer
+{
+    background-color: #0f171e;
+    padding-bottom: 30px;
+    padding-top: 45px;
+    text-align: center;
+    color: rgb(131, 137, 139);
+    
+}
+
+.footer a{
+    text-decoration: none;
+   
+}
+.get-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.mobile-imgg{
+    background-image: none;
+    background-repeat: no-repeat;
+}
+.inner-contents-5 p{
+    width: 50%;
+}
+.footer a{
+    color: #288eb3;
+}
+
+
+
+
+/********Responsive Section**********/
+
+
+
+@media only screen and (max-width: 768px) and (min-width:350px){
+.first-cont{
+    max-width: 100%;
+}
+.seco-cont{
+    max-width: 100%;
+}
+.frth-cont{
+    max-width: 100%;
+}
+.fifth-cont{
+    max-width: 100%;
+}
+}
+@media only screen and (max-width: 768px) {
+    .image{
+        text-align: center;
+    }
+    .first-cont{
+        margin: 0px;
+        padding: 0px;
+    }
+    .inner-contents h1{
+        font-size: 38px;
+    }
+
+    .inner-contents{
+        text-align: center;
+        background-color: #000;
+        padding: 60px 50px 75px 50px;
+}
+    
+    .inner-banner {
+        background-image: none;
+        padding: 0px;
+    }
+
+.mobile-imgg {
+  background-image: linear-gradient(to top, #000 0%, transparent 20%), url(asset/image/img-13.webp);
+  height: 34vh;
+  background-size: cover;
+}
+  .seco-cont{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .inner-contents-2 h1{
+        font-size: 38px;
+    }
+    .inner-contents-2{
+        text-align: center;
+        background-color: #000;
+        padding: 60px 50px 75px 50px;
+    }
+    .inner-banner-2 {
+        background-image: none;
+        padding: 0px;
+        
+    }
+    .mobile-imgg-2{
+        background-image:linear-gradient(to top, #000 0%, transparent 20%),url(asset/image/img-14.webp);
+        height: 34vh;
+        background-size: cover;
+    }
+    .frth-cont{
+        margin: 0px;
+        padding: 0px;
+      }
+
+     .inner-contents-4 h1{
+        font-size: 38px;
+    }
+    .inner-contents-4{
+        text-align: center;
+        background-color: #000;
+        padding: 60px 50px 75px 50px;
+    }
+    .inner-banner-4 {
+        background-image: none;
+        padding: 0px;
+        
+    }
+    .mobile-imgg-4{
+        background-image:linear-gradient(to top, #000 0%, transparent 20%),url(asset/image/img-15.webp);
+        height: 34vh;
+        background-size: cover;
+    } .fifth-cont{
+        margin: 0px;
+        padding: 0px;
+      }
+      .inner-contents-5 h1{
+        font-size: 38px;
+    }
+     
+    .inner-contents-5{
+        text-align: center;
+        background-color: #000;
+        padding: 60px 50px 75px 50px;
+        
+    }
+    .inner-banner-5 {
+        background-image: none;
+        padding: 0px;
+
+        
+    }
+    .mobile-imgg-5{
+        background-image:linear-gradient(to top, #000 0%, transparent 20%),url(asset/image/img-16.webp);
+        height: 34vh;
+        background-size: cover;
+    }
+    .col-lg-4{
+        color: #fff;
+    }
+    .inner-contents-5 p {
+        width: 100%;
+    }
+    .get-btn{
+        padding: 15px 15px;
+        width: 100%;
+    }
+  
+
+    
+}
